@@ -1,0 +1,280 @@
+@media only screen and (max-width: 599px) {
+  
+  
+  /*corps de page*/
+  body {
+    max-width: 599px;
+    padding-left: unset;
+    margin: auto;
+    margin-right: unset;
+    margin-left: unset;
+  }
+
+  header h1 {
+    padding-left: 1.875rem;
+  }
+
+  header p {
+    padding-left: 1.875rem;
+  }
+  
+  .form {
+    padding-left: 1.875rem;
+  }
+
+
+/*Menu*/         /*Inverser l'ordre des éléments : "logo, s'inscire, hébergements, activités" et mettre sur deux lignes*/
+                 /*Flex-flow: row-reverse met le bouton s'inscrire au bon endroit mais inverse aussi "hébergements" et "activité"*/
+                 /*Attribuer un numéro d'élément et définir la position de chacun dans la div ?*/
+                 /*Comment tout mettre sur deux lignes ? Flex-wrap ?*/
+                 /*Ou alors attribuer une div pour le bouton s'inscrire ?*/
+
+
+
+/*Barre de recherche*/        /*Remplacer "rechercher" par une icône loupe*/
+.form {
+    width: 100%;
+    flex-wrap: nowrap;
+    margin-bottom: 1.25rem;
+  }
+
+
+
+  button .recherche {
+    display: none;
+  }
+
+  button .fa-search {
+    display: block;
+    color: white;
+    background-color: #0065fc;
+    padding-top: 0.1875rem;
+  }
+
+  button {
+    border-top-right-radius: unset;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+  }
+
+  /*Filtres*/
+  #filtres {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #filtres li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.625rem;
+    padding-right: 0.9375rem;
+  }
+
+  .fa-child, .fa-money-bill-wave, .fa-heart, .fa-dog {
+    font-size: 0.9375rem;
+    padding: 1rem;
+  }
+
+  .fa-child {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+
+  .texte-filtre {
+    padding-left: 0.3125rem;
+  }
+
+  .liste-filtres {
+    flex-wrap: wrap;
+  }
+
+  .filtres {
+    /* position: absolute;
+    left: 0px;
+    top: 16.875rem; */
+    margin-bottom: 1rem;
+    float: left;
+  }
+
+  /*Hébergements*/
+  #hebergements_marseille {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+  }
+
+  #hebergement_marseille img {
+    margin-inline-start: 0px;
+  }
+
+  #hebergements {
+    width: 100%;
+    margin: auto;
+    margin-top: 1.25rem;
+    background: unset;
+    margin-right: unset;
+    padding-right: unset;
+  }
+
+  .fig-hebergement {
+    width: 100%;
+  }
+
+  .hebergement {
+    margin-inline-start: 1.25rem;
+    width: 90%;
+  }
+
+  /*Populaire*/
+  .fig-populaire1, .fig-populaire2, .fig-populaire3 {
+    width: 100%;
+    height: 33%;
+  }
+
+  #Populaires {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1.25rem;
+    border-radius: unset;
+    margin-right: unset;
+    padding-right: unset;
+    display: flex;
+    flex-direction: column;
+    height: 37.5rem;
+    padding-bottom: 1.25rem;
+  }
+
+
+  /*.populaire {
+    width: 90%;
+    height: 90%;
+    margin-inline-start: 1.25rem;
+  }*/
+
+  .populaire {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 80%;
+    border-radius: 1.25rem;
+    padding: 0.1875rem;
+    width: 90%;
+    margin-inline-start: 1.25rem;
+  }
+  
+  .caption_pop {
+    padding-left: 0.625rem;
+    width: 60%;
+  }
+  
+  .pop {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+    border-top-right-radius: unset;
+    position: relative;
+    object-fit: cover;
+  }
+
+
+  /*Hébergements + populaires*/
+  .hebergement-et-populaire {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: unset;
+    padding-right: unset;
+    margin-left: 0.3125rem;
+  }
+
+  .fa-star {
+    font-size: 0.625rem;
+  }
+
+  /*Activités*/
+
+  #Activités {
+    margin-right: unset;
+    padding-right: unset;
+    margin-left: 0.3125rem;
+    padding-left: 1.25rem;
+    margin: auto;
+    width: 100%;
+    height: 93.75rem;
+  }
+
+  #Activités > div {
+    padding: unset;
+    height: 97%;
+  }
+
+  #Activités > h1 {
+    height: 3%;
+  }
+
+  .images {
+    flex-direction: column;
+    width: 100%;
+    height: 80%;
+  }
+
+
+
+
+  .fig-grand {
+    height: 16%;
+  }
+
+  .petit {
+    height: 32%;
+  }
+
+  .fig-myn, .fig-ptt {
+    height: 50%;
+  }
+
+
+
+
+  .fig-activité {
+    width: 100%;
+    margin: auto;
+  }
+
+  .activité {
+    width: 90%;
+    margin-inline-start: 1.25rem;
+  }
+
+  .activité_grd,
+  .activité_myn,
+  .activité_ptt {
+    height: 11.25rem;
+  }
+
+  .act {
+    object-fit: cover;
+    height: 75%;
+  }
+
+  /*Footer*/
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: unset;
+    padding-right: unset;
+    margin-left: 0.3125rem;
+  }
+
+  #A-propos, #Nos-hébergements {
+    width: unset;
+  }
+}

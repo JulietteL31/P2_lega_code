@@ -1,0 +1,121 @@
+@media only screen and (max-width: 1000px) {
+    
+/* style.css */ 
+body {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/*Filtres*/
+.liste-filtres {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#filtres {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#filtres li {
+    align-items: flex-start;
+}
+
+/*Barre de recherche*/
+.formulaire {
+    width: 80%;
+    border-radius: 0.7rem;
+}
+
+button {
+    border-radius: 0.7rem;
+}
+
+.barre {
+    width: 100%;
+}
+
+
+/*hébergement et populaire*/
+.hebergement-et-populaire {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+/*Hébergements*/
+#hebergements {
+    width: 100%;
+}
+
+.fig-hebergement {
+    width: 50%;
+}
+
+/*Populaires*/
+#Populaires {
+    width: 100%;
+    height: 18.75rem;
+    margin-left: unset;
+    margin-bottom: 0.625rem;
+    padding: unset;
+    padding-left: 0.625rem;
+    padding-bottom: 3.75rem;
+}
+
+#populaires_marseille {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+.populaire {
+    height: 100%;
+    border-radius: 1.25rem;
+    padding: 0.1875rem;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    margin-inline-start: unset;
+    margin: unset;
+}
+
+.fig-populaire1, .fig-populaire2, .fig-populaire3 {
+    width: 33%;
+    height: 90%;
+}
+
+
+.pop {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 1.25rem;
+    border-top-right-radius: 1.25rem;
+    border-bottom-left-radius: unset;
+    object-fit: cover;
+}
+
+.caption_pop {
+    width: unset;
+    padding: 0.625rem;
+    padding-bottom: 1.25rem;
+}
+
+
+/*Activités*/
+
+.fig-activité {
+    width: 50%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+}
