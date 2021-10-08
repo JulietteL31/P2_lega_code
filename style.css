@@ -147,7 +147,11 @@ button {
   color: white;
 }
 
-button .fa-search {
+button p {
+  margin-top: unset;
+}
+
+.btn-recherche-mobile {
   display: none;
 }
 
@@ -241,6 +245,10 @@ h1 {
 }
 
 h2 {
+  font-size: 20px;
+}
+
+h3 {
   font-size: 15px;
 }
 
@@ -409,7 +417,7 @@ figure:hover {
   height: 7%;
 }
 
-#titre_pop h1 {
+#titre_pop h2 {
   margin-top: unset;
 }
 

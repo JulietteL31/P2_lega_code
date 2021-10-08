@@ -39,22 +39,22 @@
 
 
 
-  button .recherche {
+  .btn-recherche {
     display: none;
   }
 
-  button .fa-search {
+  .btn-recherche-mobile {
     display: block;
+  }
+
+  .btn-recherche-mobile .fa-search {
     color: white;
     background-color: #0065fc;
     padding-top: 0.1875rem;
   }
 
   button {
-    border-top-right-radius: unset;
-    border-bottom-right-radius: unset;
-    border-top-left-radius: 0.7rem;
-    border-bottom-left-radius: 0.7rem;
+    border-radius: 0.7rem;
   }
 
   /*Filtres*/
@@ -214,7 +214,7 @@
     height: 97%;
   }
 
-  #Activites > h1 {
+  #Activites > h2 {
     height: 3%;
   }
 
