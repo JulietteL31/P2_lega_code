@@ -1,14 +1,13 @@
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 768px) {
   
   
   /*corps de page*/
-  body {
-    max-width: 599px;
+  /* body {
     padding-left: unset;
     margin: auto;
     margin-right: unset;
     margin-left: unset;
-  }
+  } */
 
   header h1 {
     padding-left: 1.875rem;
@@ -200,7 +199,7 @@
 
   /*Activités*/
 
-  #Activités {
+  #Activites {
     margin-right: unset;
     padding-right: unset;
     margin-left: 0.3125rem;
@@ -210,12 +209,12 @@
     height: 93.75rem;
   }
 
-  #Activités > div {
+  #Activites > div {
     padding: unset;
     height: 97%;
   }
 
-  #Activités > h1 {
+  #Activites > h1 {
     height: 3%;
   }
 
@@ -243,19 +242,19 @@
 
 
 
-  .fig-activité {
+  .fig-activite {
     width: 100%;
     margin: auto;
   }
 
-  .activité {
+  .activite {
     width: 90%;
     margin-inline-start: 1.25rem;
   }
 
-  .activité_grd,
-  .activité_myn,
-  .activité_ptt {
+  .activite_grd,
+  .activite_myn,
+  .activite_ptt {
     height: 11.25rem;
   }
 
@@ -274,7 +273,7 @@
     margin-left: 0.3125rem;
   }
 
-  #A-propos, #Nos-hébergements {
+  #A-propos, #Nos-hebergements {
     width: unset;
   }
 }

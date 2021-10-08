@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: "Raleway";
   src: url("fonts/Raleway-Regular.ttf") format("ttf")
     url("fonts/Raleway-Black.ttf") format("ttf")
@@ -19,14 +19,14 @@
     url("fonts/Raleway-Thin.ttf") format("ttf")
     url("fonts/Raleway-ThinItalic.ttf") format("ttf")
     url("fonts/Raleway-VariableFont_wght.ttf") format("ttf");
-}
+} */
 
 /*Corps de la page*/
 
 body {
   font-family: "Raleway";
   max-width: 1500px;
-  margin: auto;
+  margin: 0 auto;
   padding-left: 1.25rem;
 }
 
@@ -186,7 +186,7 @@ button .fa-search {
   justify-content: flex-start;
   align-items: center;
   width: 100%;
-  font-size: 10pt;
+  font-size: 15px;
 }
 
 #filtres li {
@@ -221,7 +221,7 @@ div .liste-filtres li:hover {
 }
 
 div p {
-  font-size: 10pt;
+  font-size: 15px;
 }
 
 .texte-filtre {
@@ -237,15 +237,15 @@ div p {
 /*Titres et paragraphes*/
 
 h1 {
-  font-size: 15pt;
+  font-size: 20px;
 }
 
 h2 {
-  font-size: 10pt;
+  font-size: 15px;
 }
 
 p {
-  font-size: 10pt;
+  font-size: 15px;
 }
 
 /*Pied de page*/
@@ -255,13 +255,14 @@ footer {
   align-items: center;
   justify-content: space-between;
   background-color: #f2f2f2;
-  padding: 1.25rem;
+  /* padding: 1.25rem; */
   width: 100%;
   padding-right: unset;
 }
 
 footer section {
   width: 33%;
+  margin: 1.25rem;
 }
 
 /*Images*/
@@ -405,6 +406,15 @@ figure:hover {
 #titre_pop {
   display: flex;
   justify-content: space-between;
+  height: 7%;
+}
+
+#titre_pop h1 {
+  margin-top: unset;
+}
+
+#titre_pop p {
+  margin-top: unset;
 }
 
 .icone_titre_pop {
@@ -447,13 +457,13 @@ figure:hover {
 }
 
 /*conteneur*/
-#Activités {
+#Activites {
   background-color: white;
   margin-top: 3.125rem;
   width: 100%;
 }
 
-#Activités > div {
+#Activites > div {
   height: auto;
   padding: 0.9375rem;
   display: flex;
@@ -461,25 +471,25 @@ figure:hover {
   justify-content: space-between;
 }
 
-.activité {
+.activite {
   border-radius: 1.25rem;
   margin-inline-start: unset;
   width: 92%;
 }
 
-.activité_grd {
+.activite_grd {
   height: 25rem;
 }
 
-.activité_myn {
+.activite_myn {
   height: 13.75rem;
 }
 
-.activité_ptt {
+.activite_ptt {
   height: 10.625rem;
 }
 
-.haut, .bas, .activité_grd {
+.haut, .bas, .activite_grd {
   margin: 0.3125rem;
 }
 
@@ -496,15 +506,11 @@ figure:hover {
   margin-inline-end: unset;
 }
 
-.images {
-  /* min-width: 1350px; */
-}
-
 
 
 /*réglage des largeur/hauteur en pourcentage*/
 
-.fig-activité {
+.fig-activite {
   width: 25%;
   height: 100%;
 }

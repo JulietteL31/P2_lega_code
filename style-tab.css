@@ -1,10 +1,10 @@
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 992px) {
     
 /* style.css */ 
-body {
+/* body {
     max-width: 1920px;
     margin: 0 auto;
-}
+} */
 
 /*Filtres*/
 .liste-filtres {
@@ -108,7 +108,7 @@ button {
 
 /*Activités*/
 
-.fig-activité {
+.fig-activite {
     width: 50%;
 }
 
