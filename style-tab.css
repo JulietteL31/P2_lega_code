@@ -1,10 +1,4 @@
 @media only screen and (max-width: 992px) {
-    
-/* style.css */ 
-/* body {
-    max-width: 1920px;
-    margin: 0 auto;
-} */
 
 /*Filtres*/
 .liste-filtres {
@@ -45,7 +39,7 @@ button {
 
 /*Hébergements*/
 #hebergements {
-    width: 100%;
+    width: 98%;
 }
 
 .fig-hebergement {
@@ -54,7 +48,7 @@ button {
 
 /*Populaires*/
 #Populaires {
-    width: 100%;
+    width: 98%;
     height: 18.75rem;
     margin-left: unset;
     margin-bottom: 0.625rem;
@@ -68,6 +62,11 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     height: 90%;
+}
+
+#titre_pop {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .populaire {

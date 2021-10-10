@@ -1,13 +1,4 @@
 @media only screen and (max-width: 768px) {
-  
-  
-  /*corps de page*/
-  /* body {
-    padding-left: unset;
-    margin: auto;
-    margin-right: unset;
-    margin-left: unset;
-  } */
 
   header h1 {
     padding-left: 1.875rem;
@@ -22,22 +13,12 @@
   }
 
 
-/*Menu*/         /*Inverser l'ordre des éléments : "logo, s'inscire, hébergements, activités" et mettre sur deux lignes*/
-                 /*Flex-flow: row-reverse met le bouton s'inscrire au bon endroit mais inverse aussi "hébergements" et "activité"*/
-                 /*Attribuer un numéro d'élément et définir la position de chacun dans la div ?*/
-                 /*Comment tout mettre sur deux lignes ? Flex-wrap ?*/
-                 /*Ou alors attribuer une div pour le bouton s'inscrire ?*/
 
-
-
-/*Barre de recherche*/        /*Remplacer "rechercher" par une icône loupe*/
+/*Barre de recherche*/
 .form {
-    width: 100%;
     flex-wrap: nowrap;
     margin-bottom: 1.25rem;
   }
-
-
 
   .btn-recherche {
     display: none;
@@ -60,7 +41,6 @@
   /*Filtres*/
   #filtres {
     flex-direction: column;
-    width: 100%;
   }
 
   #filtres li {
@@ -90,9 +70,6 @@
   }
 
   .filtres {
-    /* position: absolute;
-    left: 0px;
-    top: 16.875rem; */
     margin-bottom: 1rem;
     float: left;
   }
@@ -111,7 +88,7 @@
   }
 
   #hebergements {
-    width: 100%;
+    width: 97%;
     margin: auto;
     margin-top: 1.25rem;
     background: unset;
@@ -135,7 +112,7 @@
   }
 
   #Populaires {
-    width: 100%;
+    /* width: 100%; */
     margin: auto;
     margin-bottom: 1.25rem;
     border-radius: unset;
@@ -147,13 +124,6 @@
     padding-bottom: 1.25rem;
   }
 
-
-  /*.populaire {
-    width: 90%;
-    height: 90%;
-    margin-inline-start: 1.25rem;
-  }*/
-
   .populaire {
     display: flex;
     flex-direction: row;
@@ -163,7 +133,7 @@
     height: 80%;
     border-radius: 1.25rem;
     padding: 0.1875rem;
-    width: 90%;
+    /* width: 90%; */
     margin-inline-start: 1.25rem;
   }
   
@@ -185,7 +155,7 @@
 
   /*Hébergements + populaires*/
   .hebergement-et-populaire {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column-reverse;
     margin-right: unset;
@@ -205,7 +175,7 @@
     margin-left: 0.3125rem;
     padding-left: 1.25rem;
     margin: auto;
-    width: 100%;
+    /* width: 100%; */
     height: 93.75rem;
   }
 
